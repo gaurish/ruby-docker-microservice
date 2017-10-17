@@ -9,6 +9,8 @@
  ### To Build the image
 
  ```
+ $ git clone https://github.com/gaurish/ruby-docker-microservice.git
+ $ cd ruby-docker-microservice
  $ docker build -t sinatra .
  Sending build context to Docker daemon 67.58 kB
 Step 1/7 : FROM alpine:3.5
