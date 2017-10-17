@@ -4,7 +4,7 @@
 
  1. Alpine as base image. Base image is 5MB only vs 250mb of Ubuntu. 
  2. Sinatra 2
- 3. Sidekiq & Redis to showcase that we can build gems with native extentions without a problem. if you remove them, if you do not use them. 
+ 3. Sidekiq & Redis to showcase that we can build gems with native extentions without a problem. you can remove them, if you do not need it. it will work fine without it.  
 
  ### To Build the image
 
