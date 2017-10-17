@@ -6,6 +6,7 @@ GEM
     daemons (1.2.4)
     eventmachine (1.2.5)
     hiredis (0.6.1)
+    json (2.0.2)
     mustermann (1.0.1)
     rack (2.0.3)
     rack-protection (2.0.0)
@@ -34,6 +35,7 @@ PLATFORMS
 
 DEPENDENCIES
   hiredis (~> 0.6.0)
+  json
   redis (~> 3.2.1)
   redis-namespace (~> 1.5.2)
   sidekiq (< 5)
